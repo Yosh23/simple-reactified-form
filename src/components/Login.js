@@ -4,7 +4,11 @@ export default class extends React.Component {
     render () {
         return (
             <>
-                <p>text</p>
+                <h1> Login Page </h1>
+                <form>
+                    <p>User Name: </p>
+                    <input type="text" placeholder="Name Please..." required />
+                </form>
             </>
         )
     }
